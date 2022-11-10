@@ -1,0 +1,34 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scripts/gui.rpy", line 11, in script
+    init python:
+  File "game/scripts/gui.rpy", line 11, in script
+    init python:
+  File "game/scripts/gui.rpy", line 12, in <module>
+    game.init(1920, 1080)
+NameError: name 'game' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/bootstrap.py", line 331, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 560, in main
+    renpy.game.context().run(node)
+  File "game/scripts/gui.rpy", line 11, in script
+    init python:
+  File "game/scripts/gui.rpy", line 11, in script
+    init python:
+  File "renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/scripts/gui.rpy", line 12, in <module>
+    game.init(1920, 1080)
+NameError: name 'game' is not defined
+
+Windows-10-10.0.22000
+Ren'Py 7.4.11.2266
+DNKSnew 1.0
+Thu Nov 10 19:05:04 2022

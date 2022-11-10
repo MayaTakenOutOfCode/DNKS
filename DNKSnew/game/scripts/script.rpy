@@ -2,12 +2,12 @@
 define dandere = Character("Yui")
 define normalG = Character("Ichika")
 define normalB = Character("Shisuno")
-#image room = "/images/room.jpg"
-#image nb = "images/normalboy.png"
+image roomN = "roomNight.png"
+image nb = "normalboy.png"
 
 
 label splashscreen:
-    #play music "audio/splashscreen.wav"   
+    #play music "audio/spalshscreen.wav"   
 
     scene black
     with Pause(1)
@@ -37,14 +37,15 @@ label start:
     normalB"I am so happy that tomorrow will be my school year beggining"
 
     scene black with fade
-    show text "...at the morning..." with dissolve
+    show text "...in the morning..." with dissolve
     with Pause(2)
 
-    scene room with fade
+    scene roomN with fade
 
     show nb
 
-    normalBoy"It is finally  tomorrow! I am so ready to go to new school!"
+    normalB "It is finally  tomorrow! I am so ready to go to a new school!"
+    normalB "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     
 
     return

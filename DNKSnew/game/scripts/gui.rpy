@@ -17,6 +17,8 @@ init python:
 ## GUI Configuration Variables
 ################################################################################
 
+define config.screen_width = 1920
+define config.screen_height= 1080
 
 ## Colors ######################################################################
 ##
@@ -48,20 +50,20 @@ define gui.muted_color = '#e066a3'
 define gui.hover_muted_color = '#ea99c1'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#404040'
-define gui.interface_text_color = '#404040'
+define gui.text_color = '#ffffff'
+define gui.interface_text_color = '#ffffff'
 
 
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "../font/NotoSansJP-Regular.otf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "../font/NotoSansJP-Regular.otf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "../font/NotoSansJP-Regular.otf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 22
