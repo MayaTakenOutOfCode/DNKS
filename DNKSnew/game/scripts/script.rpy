@@ -45,7 +45,6 @@ label start:
     show nb
 
     normalB "It is finally  tomorrow! I am so ready to go to a new school!"
-    normalB "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     
 
     return
