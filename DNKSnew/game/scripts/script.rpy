@@ -20,6 +20,8 @@ label splashscreen:
 
     show text "Dekinai Nogareru Kore Seikatsu (出来ない逃れるこれ生活)" with dissolve
     with Pause(3)
+    show text "Epilepsy WARNING: Flashing Colours!" with dissolve
+    with pause(2)
 
     stop music fadeout 2.0
 
