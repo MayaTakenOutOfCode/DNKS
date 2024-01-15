@@ -1,4 +1,6 @@
-﻿define yandere = Character("Yua")
+﻿# home scripts
+
+define yandere = Character("Yua")
 define dandere = Character("Yui")
 define normalG = Character("Ichika")
 define normalB = Character("Shisuno")
@@ -48,6 +50,9 @@ label start:
 
     normalB "It is finally today! I am so ready to go to a new school! I am so happy!"
     
+    show text "Chapter 1 - Begining!" with fade(2)
+    with Pause(3)
+    jump dayFirst
 
     return
 
