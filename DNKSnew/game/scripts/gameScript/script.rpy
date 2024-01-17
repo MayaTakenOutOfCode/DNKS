@@ -14,7 +14,7 @@ label splashscreen:
     scene black
     with Pause(1)
 
-    show text "Silly Cat Media Presents..." with dissolve
+    show text "Vivid Media Presents..." with dissolve
     with Pause(2)
 
     hide text with dissolve
