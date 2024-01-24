@@ -2,7 +2,7 @@
 ## Initialization
 ################################################################################
 
-init offset = -1
+init offset = 0
 
 
 ################################################################################
@@ -160,7 +160,7 @@ style say_dialogue:
     xsize gui.dialogue_width
     ypos gui.dialogue_ypos
 
-    adjust_spacing False
+    adjust_spacing True
 
 ## Input screen ################################################################
 ##
